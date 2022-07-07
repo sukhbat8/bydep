@@ -1,0 +1,95 @@
+.BuildControl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+.BuildControl button{
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    width: 80px;
+    border: 1px solid #aa6817;
+    cursor: pointer;
+    outline: none;
+}
+.BuildControl button:disabled{
+    background-color: #ac9980;
+    border: 1px solid #7e7365;
+    color: #ccc;
+    cursor: default;
+}
+.BuildControl button:hover:disabled{
+    background-color: #ac9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+.Label{
+    padding: 10px;
+    font-weight: bold;
+    width: 100px;
+    text-align: right;
+    color: rgb(189, 189, 189);
+    font-size: 18px;
+}
+.BuildControl .Less{
+    background-color: #d3995279;
+    color: white;
+    border-radius: 10px;
+}
+.BuildControl .More{
+    /* //background-color: #49b0df94; */
+    background-color: #a76132d2;
+    color: white;
+    border-radius: 10px;
+    border-color: rgba(179, 117, 2, 0.623);
+}
+@media(min-width: 500px){
+    .BuildControl{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px 0;
+    }
+    .BuildControl button{
+        display: block;
+        font: inherit;
+        padding: 5px;
+        margin: 0 5px;
+        width: 80px;
+        border: 1px solid #aa6817;
+        cursor: pointer;
+        outline: none;
+    }
+    .BuildControl button:disabled{
+        background-color: #ac9980;
+        border: 1px solid #7e7365;
+        color: #ccc;
+        cursor: default;
+    }
+    .BuildControl button:hover:disabled{
+        background-color: #ac9980;
+        color: #ccc;
+        cursor: not-allowed;
+    }
+    .Label{
+        padding: 10px;
+        font-weight: bold;
+        width: 100px;
+        text-align: right;
+        color: rgb(189, 189, 189);
+        font-size: 18px;
+    }
+    .BuildControl .Less{
+        background-color: #d39952;
+        color: white;
+        border-radius: 10px;
+    }
+    .BuildControl .More{
+        background-color: #49afdf;
+        color: white;
+        border-radius: 10px;
+        border-color: rgba(44, 85, 173, 0.623);
+    }
+}

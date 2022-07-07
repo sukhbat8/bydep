@@ -1,0 +1,16 @@
+.Menu{
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    align-items: left;
+
+}
+@media(min-width: 500px){
+    .Menu{
+        flex-flow: row;
+        align-items: center;
+    }
+}

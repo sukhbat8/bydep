@@ -1,0 +1,16 @@
+.Logo{
+    background-color: white;
+    padding: 2px;
+    margin-left: 8%;
+    height: 80%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.Logo img {
+    height: 100%;
+}
+@media (min-width: 500px){
+   .logo img {
+    width: 60px;
+   } 
+}
